@@ -59,7 +59,7 @@ public class Emailer {
 		return in.readLine();
 	}
 	public static void email(String toAddress, String attachment) throws AddressException, MessagingException {
-		final String host="smpt.gmail.com";
+		final String host="smtp.gmail.com";
 		final String port="587";
 		final String username="dopy@gmail.com";	//change accordingly  
 		final String password="xxxxxx";	//change accordingly  
